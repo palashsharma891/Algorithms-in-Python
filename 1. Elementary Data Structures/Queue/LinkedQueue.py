@@ -77,19 +77,19 @@ class LinkedQueue(object):
         else:
             removed = self.head
             self.head = self.head.next # unlinks the current head of the list
+            self.size -= 1
             return removed
         
     def printQueue(self):
         """
-        Prints the elements in the queue
+        Returns the elements in the queue in the form of a list
         """
         temp = self.head
-        stack = []
+        queue = []
         while temp:
-            stack += [temp.data]
-            print(temp.data)
+            queue += [temp.data]
             temp = temp.next
-        return stack
+        return queue
             
     
 if __name__ == '__main__':
@@ -107,3 +107,4 @@ if __name__ == '__main__':
     print(queue_obj.get_tail())
     queue_obj.dequeue()
     print(queue_obj.printQueue())
+    print(len(queue_obj))
