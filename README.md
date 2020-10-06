@@ -6,5 +6,5 @@ Books that I followed while doing this are:
 2. Data Structures and Algorithms in Python - by Goodrich, Tamassia and Goldwasser.
 
 Other resources that I have used to help with implementations are:
-1. (https://www.programiz.com/dsa)
-2. (https://www.geeksforgeeks.org/data-structures/)
+1. [Programiz](https://www.programiz.com/dsa)
+2. [GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/)
